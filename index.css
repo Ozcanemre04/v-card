@@ -7,7 +7,7 @@ header {
     background-size: cover;
     margin-right: auto;
     font-size: 25px;
-    margin: 0;
+    
 
 
 
@@ -30,8 +30,8 @@ ul li {
 h1 {
     padding-left: 10px;
     text-transform: uppercase;
-    text-shadow: 0 0 10px gray;
-    color: gray;
+    text-shadow: 0 0 10px greenyellow;
+    color: white;
     flex: 1 100px;
 
 
@@ -77,13 +77,17 @@ section {
 
 .main {
     align-items: center;
-    color: wheat;
+    color: greenyellow;
     display: flex;
     flex-direction: column;
 
     width: 500px;
     padding-left: 100px;
 
+}
+
+.main > h2{
+    color: white;
 }
 
 body {
