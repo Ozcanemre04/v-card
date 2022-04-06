@@ -1,5 +1,5 @@
-header{
-    
+header {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,53 +8,55 @@ header{
     margin-right: auto;
     font-size: 25px;
     margin: 0;
-    
-    
-    
+
+
+
 }
 
-ul{
+ul {
     display: flex;
     list-style-type: none;
-    
-    
+
+
 }
-ul li{
+
+ul li {
     padding: 0 20px;
     color: white;
     text-shadow: 0 0 10px white;
 }
 
 
-h1{
+h1 {
     padding-left: 10px;
-    text-transform:uppercase;
+    text-transform: uppercase;
     text-shadow: 0 0 10px gray;
     color: gray;
     flex: 1 100px;
-    
-    
+
+
 }
 
 
-section{
+section {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     height: 80vh;
-    
-    
 
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
 }
-.info{
+
+.info {
     display: flex;
-    background-image:url(./img/green.jpg);
-    
+    background-image: url(./img/green.jpg);
+
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
@@ -64,32 +66,35 @@ section{
     align-self: flex-end;
     transition: 0.3s all ease-in;
     margin-right: 50px;
-    
+
 }
-.info:hover{
+
+.info:hover {
     transform: rotate(-10deg);
     font-size: 15px;
     color: rgb(170, 236, 15);
 }
-.main{
+
+.main {
     align-items: center;
     color: wheat;
     display: flex;
     flex-direction: column;
 
-    width:500px;
+    width: 500px;
     padding-left: 100px;
-    
+
 }
-body{
+
+body {
     background-image: url(./img/backgroun-image.jpg);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-    
+
+
 
 }
 
-.main > button{
+.main>button {
     display: inline;
     margin: 50px 10px 0 10px;
     padding: 10px;
@@ -99,29 +104,24 @@ body{
     box-shadow: 0 0 10px greenyellow;
     width: 150px;
     display: inline;
-    
-    
-    
-    
+
+
+
+
 }
 
-button > a{
+button>a {
     text-decoration: none;
     color: greenyellow;
     transition: 0.3s all ease-in;
-    
-    
-    
+
+
+
 }
 
-button > a:hover{
-    
+button>a:hover {
+
     color: green;
     text-shadow: 0 0 10px greenyellow;
-    
+
 }
-
-
-
-
-
