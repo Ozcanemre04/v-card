@@ -62,18 +62,15 @@ section{
     background-size: cover;
     padding: 0 10px;
     align-self: flex-end;
-    
-    
-    
-    
-    
-    
-    
-
-    
+    transition: 0.3s all ease-in;
+    margin-right: 50px;
     
 }
-
+.info:hover{
+    transform: rotate(-10deg);
+    font-size: 15px;
+    color: rgb(170, 236, 15);
+}
 .main{
     align-items: center;
     color: wheat;
@@ -111,6 +108,8 @@ body{
 button > a{
     text-decoration: none;
     color: greenyellow;
+    transition: 0.3s all ease-in;
+    
     
     
 }
