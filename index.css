@@ -1,0 +1,96 @@
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-size: cover;
+    margin-right: auto;
+    
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li{
+    padding: 0 20px;
+    color: white;
+}
+h1{
+    padding-left: 10px;
+    text-transform:uppercase;
+    text-shadow: 0 0 10px gray;
+    color: gray;
+}
+
+section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+    
+}
+.info{
+    display: flex;
+    background-image: url(./img/green.jpg);
+    height: 70vh;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    background-size: cover;
+    padding: 0 10px;
+    margin-top: 120px;
+    
+    
+}
+
+.main{
+    align-items: center;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    padding-left: 100px;
+}
+body{
+    background-image: url(./img/backgroun-image.jpg);
+    
+
+}
+
+button{
+    display: inline;
+    margin: 50px 10px 0 10px;
+    padding: 10px;
+    border: 5px solid greenyellow;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0 0 10px greenyellow;
+    width: 150px;
+    display: inline;
+    
+    
+    
+    
+}
+
+button > a{
+    text-decoration: none;
+    color: greenyellow;
+    
+    
+}
+
+button > a:hover{
+    font-size: 15px;
+    color: green;
+    text-shadow: 0 0 10px greenyellow;
+    
+}
+
+
+
+
