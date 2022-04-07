@@ -1,3 +1,5 @@
+
+
 header {
 
     display: flex;
@@ -78,7 +80,7 @@ section {
     color: rgb(170, 236, 15);
 }
 
-.main {
+main {
     align-items: center;
     color: greenyellow;
     display:flex;
@@ -88,44 +90,43 @@ section {
 
 }
 
-.main > h2{
+main > h2{
     color: white;
 }
 
 body {
     background-image: url(./img/backgroun-image.jpg);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
 
 
 
 }
 
-.main>button {
-    display: inline;
-    margin: 50px 10px 0 10px;
-    padding: 10px;
-    border: 5px solid greenyellow;
-    border-radius: 10px;
-    background-color: black;
-    box-shadow: 0 0 10px greenyellow;
-    width: 150px;
-    display: inline;
 
 
-
-
-}
-
-button>a {
+a {
     text-decoration: none;
     color: greenyellow;
     transition: 0.3s all ease-in;
+    border: 1px solid greenyellow;
+    width: 100px;
+    text-align: center;
+    
+    margin:20px 50px 10px 10px;
+    padding: 10px;
+    
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0 0 10px greenyellow;
+    
+    
 
 
 
 }
 
-button>a:hover {
+a:hover {
 
     color: green;
     text-shadow: 0 0 10px greenyellow;
@@ -141,6 +142,61 @@ img{
    
    
    
+   
+}
+
+@media (max-width:600px){
+    section{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        text-align: center;
+        flex-wrap: wrap;
+        
+    }
+    img{
+        width: 400px;
+        height: 200px;
+        
+        
+        
+    }
+    .info{
+        
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        align-items: flex-end;
+        
+    }
+    .info > h2{
+        align-self: center;
+        position: absolute;
+        left: 50%;
+        
+    }
+    
+    main{
+        width: auto;
+        height: 100px;
+        padding-left: 0;
+    
+        
+        
+    }
+    a{
+        margin-top:0;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        
+    }
    
 }
 
